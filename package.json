@@ -1,1 +1,35 @@
 
+{
+    "name": "motivate-me",
+    "displayName": "Motivate Me",
+    "description": "Простой плагин для отображения мотивационных фраз в VS Code.",
+    "version": "1.0.0",
+    "publisher": "student3121",
+    "engines": {
+      "vscode": "^1.80.0"
+    },
+    "categories": [
+      "Other"
+    ],
+    "activationEvents": [
+      "onCommand:motivate-me.showMotivation"
+    ],
+    "main": "./extension.js",
+    "contributes": {
+      "commands": [
+        {
+          "command": "motivate-me.showMotivation",
+          "title": "Show Motivation"
+        }
+      ]
+    },
+    "scripts": {
+      "test": "echo \"No tests yet\""
+    },
+    "author": {
+      "name": "Галушкин Никита",
+      "email": "234@example.com"
+    },
+    "license": "MIT"
+  }
+  
